@@ -1,0 +1,80 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lavender ;/* Semi-transparent background */
+    z-index: 10; /* Ensure the header is above the slider */
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.blog-posts {
+    margin-top: 20px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 10px 0; /* Space between blog boxes */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Different background colors for each post */
+.post-1 {
+    background-color: #e7f3fe; /* Light blue */
+}
+
+.post-2 {
+    background-color: #fce7f3; /* Light pink */
+}
+
+.post-3 {
+    background-color: #e7fce7; /* Light green */
+}
+
+.post-author, .post-date {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+}
